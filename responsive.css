@@ -1,0 +1,62 @@
+@media (max-width:1024px){
+  .container{
+    width:90%;
+  }
+  .top-header{
+    font-size: 12px;
+    padding: 0px 10px;
+  }
+
+  img{
+    width: 70%;
+  }
+
+  .top-menu h3{
+    left: 32px;
+  }
+}
+
+@media(max-width:670px){
+  img{
+    width: 80%;
+  }
+  header{
+    font-size: 9px;
+  }
+
+  .logo{
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .header-menu{
+    display: none;
+  }
+
+  .fa-bars{
+    font-size: 18px;
+  }
+
+  .top-header{
+    font-size: 10px;
+  }
+
+  .text{
+    font-size: 15px;
+  }
+
+  .top-menu h3{
+    left: 32px;
+  }
+
+  .heading {
+    font-size: 16px;
+  }
+
+  .heading-2{
+    font-size: 17px;
+  }
+
+  .copyright{
+    font-size: 10px;
+  }
+}
