@@ -1,0 +1,222 @@
+body a {
+  text-decoration: none;
+  
+}
+*{
+  box-sizing: border-box;
+}
+
+body ul{
+  list-style: none;
+}
+
+.container{
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+/* ヘッダー */
+
+header{
+  background-color: #8ec6ff;
+  height: 50px;
+  line-height: 23px;
+}
+
+.fa{
+  font-size: 25px;
+  color: #fffff0;
+}
+
+.logo{
+  font-size: 24px;
+  color: #ffff28;
+}
+
+.header-menu{
+  display: block;
+  background-color: #ffff89;
+  height: 35px;
+  line-height: 35px;
+  color: #000;
+  border-radius: 4px;
+  opacity: 0.9;
+  padding: 0 10px;
+}
+
+.header-menu:hover{
+  opacity: 1;
+}
+
+/* トップ */
+
+#top-wrapper{
+  background-image:url(../image/girl_and_dady.jpg);
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: bottom ;
+}
+
+
+
+#top-wrapper::before{
+  content: '';
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.top-header {
+  color: #fffff0;
+  text-align: center;
+  letter-spacing: 0.2em;
+  width: 100%;
+  z-index: 2;
+}
+
+
+/* menu */
+
+#menu-wrapper{
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+.top-foreword{
+  padding: 50px 0px;
+}
+
+.text{
+ text-align: left;
+ padding-top: 20px;
+}
+
+.text span{
+  font-weight: 600;
+}
+
+.top-menu{
+  border: solid 2px #8ec6ff;
+  border-radius: 15px;
+  position: relative;
+  text-align: left;
+  
+}
+
+.top-menu-color{
+  background-color: #8ec6ff;
+  height: 70px;
+  border-top-right-radius: 13px;
+  border-top-left-radius: 13px;
+
+}
+
+.top-menu h3{
+  text-align: left;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  color: #fffff0;
+  letter-spacing: 0.2em;
+}
+
+.top-menu li {
+  padding: 10px 0px;
+}
+
+.top-menu li a{
+  color: #000;
+  font-weight: 600;
+}
+
+/* profile */
+
+#profile{
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+.heading{
+text-align: left;
+border-left: solid 8px #8ec6ff;
+border-radius: 4px;
+font-size: 20px;
+padding-left: 10px;
+margin-bottom: 20px;
+}
+
+#work{
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+#hobby{
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+#summary{
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+
+.heading-2{
+  font-size: 20px;
+  background-color: #8ec6ff;
+  box-shadow: 2px 4px #719fcc;
+  height: 70px;
+  padding: 10px;
+  line-height: 50px;
+  color: white;
+  text-align: left;
+}
+
+.btn{
+  display: inline-block;
+  background-color: #ffff28;
+  padding: 15px 8px;
+  border-radius: 10px;
+  color: #33475b;
+  font-weight: 700;
+  opacity: 0.8;
+  box-shadow: 0px 4px #cbcb20;
+
+}
+
+.btn:hover{
+  opacity: 1;
+}
+
+.btn:active{
+  transform: translateY(4px);
+  box-shadow: none;
+}
+
+/* footer */
+
+footer{
+  margin-top: 180px;
+  text-align: center;
+  border-top: solid 1px #8ec6ff;
+}
+
+.copyright{
+  padding: 10px 0px;
+}
